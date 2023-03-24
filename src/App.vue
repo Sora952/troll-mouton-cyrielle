@@ -5,8 +5,7 @@
       :typeSpeed="50"
       :iterations="'1'"
       :eraseSpeed="30"
-      :delay="1000"
-      :caret="underscore"
+      :delay="2000"
     />
   </div>
 </template>
