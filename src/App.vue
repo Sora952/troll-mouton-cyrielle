@@ -1,11 +1,11 @@
 <template>
   <img alt="Vue logo" class="img" src="./assets/mouton.jpeg" />
-  <div id="t">
+  <div id="texte">
     <VueWriter
       :array="arr"
-      :typeSpeed="70"
+      :typeSpeed="1000"
       :iterations="'1'"
-      :eraseSpeed="50"
+      :eraseSpeed="70"
       :delay="1000"
     />
   </div>
@@ -23,15 +23,21 @@ export default {
 .typewriter.content *:last-child::after {
   font-size: calc(3em + 20px) !important;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  // margin-top: 60px;
 }
-#t {
+
+img {
+  width: 100%;
+}
+
+#texte {
   width: 120px;
   height: 40px;
   background-color: rgba(240, 240, 240, 0.5);
