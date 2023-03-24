@@ -4,8 +4,9 @@
       :array="arr"
       :typeSpeed="50"
       :iterations="'1'"
-      :eraseSpeed="50"
+      :eraseSpeed="30"
       :delay="1000"
+      :caret="underscore"
     />
   </div>
 </template>
