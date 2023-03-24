@@ -32,7 +32,7 @@ export default {
   
   width: 100%;
   height: 100vh;
-  background-image: url("/img/mouton.3be4e771.jpeg");
+  background-image: url("./assets/mouton.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 36% 36%;
