@@ -3,9 +3,9 @@
   <div id="texte">
     <VueWriter
       :array="arr"
-      :typeSpeed="1000"
+      :typeSpeed="50"
       :iterations="'1'"
-      :eraseSpeed="70"
+      :eraseSpeed="50"
       :delay="1000"
     />
   </div>
